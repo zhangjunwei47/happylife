@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.1"
+    defaultConfig {
+        applicationId "com.zc.happy.life.happylife"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile googleSupport('25.0.1')
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.dinuscxj:recycleritemdecoration:1.0.0'
+    testCompile 'junit:junit:4.12'
+    compile 'com.handmark.pulltorefresh.library:PullToRefreshLibrary:2.1.1'
+}
+def googleSupport(version) {
+    [
+            "com.android.support:support-v4:$version",
+            "com.android.support:recyclerview-v7:$version",
+            "com.android.support:support-annotations:$version",
+            "com.android.support:design:$version",
+            "com.android.support:cardview-v7:$version",
+    ]
+}
+

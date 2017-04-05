@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">电台之家</string>
+    <string name="no_network">网络有问题，检查下吧</string>
+    <string name="pull_down_loadmore">松开载入更多</string>
+    <string name="pull_up_loadmore">上拉载入更多</string>
+    <string name="loading_text">正在加载…请稍候</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

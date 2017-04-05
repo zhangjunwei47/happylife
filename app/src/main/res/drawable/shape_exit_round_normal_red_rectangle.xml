@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/kaola_red"/>
+
+    <corners
+        android:bottomLeftRadius="@dimen/button_radius_size"
+        android:bottomRightRadius="@dimen/button_radius_size"
+        android:radius="@dimen/button_radius_size"
+        android:topLeftRadius="@dimen/button_radius_size"
+        android:topRightRadius="@dimen/button_radius_size"/>
+
+</shape>

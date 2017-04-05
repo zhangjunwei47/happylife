@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--CardViewHolder convertview is-->
+    <item name="viewholder_convertview" type="id" />
+
+</resources>
