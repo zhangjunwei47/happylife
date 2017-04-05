@@ -5,8 +5,8 @@ import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.view.animation.Animation;
 
-import com.txznet.music.R;
-import com.txznet.music.util.AnimationUtil;
+import com.zc.happy.life.happylife.R;
+import com.zc.happy.life.happylife.util.AnimationUtil;
 
 
 /**

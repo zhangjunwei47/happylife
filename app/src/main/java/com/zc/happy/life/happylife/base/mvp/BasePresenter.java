@@ -4,8 +4,8 @@ import android.app.Activity;
 import android.content.Context;
 import android.support.v4.app.Fragment;
 
-import com.txznet.music.base.KaolaBaseFragment;
-import com.txznet.music.home.MyApplication;
+import com.zc.happy.life.happylife.MyApplication;
+import com.zc.happy.life.happylife.base.KaolaBaseFragment;
 
 import java.lang.ref.WeakReference;
 

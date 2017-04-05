@@ -14,6 +14,7 @@ import android.view.animation.Animation;
 
 import com.zc.happy.life.happylife.MyApplication;
 import com.zc.happy.life.happylife.R;
+import com.zc.happy.life.happylife.util.AnimationUtil;
 
 
 public class KaolaBaseFragment extends Fragment implements IFragment<KaolaBaseFragmentActivity> {

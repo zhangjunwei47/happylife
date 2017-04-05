@@ -7,7 +7,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.text.TextUtils;
 
-import com.txznet.music.R;
+import com.zc.happy.life.happylife.R;
 
 import java.lang.reflect.Constructor;
 import java.util.ArrayList;

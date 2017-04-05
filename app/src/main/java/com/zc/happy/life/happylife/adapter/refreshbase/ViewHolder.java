@@ -11,8 +11,7 @@ import android.view.ViewGroup;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.txznet.music.R;
+import com.zc.happy.life.happylife.R;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
